@@ -1,0 +1,183 @@
+/*|||||||||||||||||||||||||||||
+||| MOBILE-PORTRAIT/DEFAULT |||
+|||||||||||||||||||||||||||||*/
+.what_we_offer{
+    background: url('https://dev.myclassof.com/public/images/top.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom-left-radius: 320% 90%;
+    border-bottom-right-radius: 320% 90%;
+}
+
+.color-overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(5,117,230,0.8), rgba(0,242,96,0.8));
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+    background-size: 200% 100%;
+    position: absolute;
+    border-bottom-left-radius: 320% 90%;
+    border-bottom-right-radius: 320% 90%;
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.what-we-offer-heading {
+    color: #00ff00;
+    text-align: center;
+    background: white;
+    width: 100%;
+    margin: 30px auto 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 3em;
+}
+.round-button{
+    border-radius: 35px;
+    width: 100px;
+    background-color: #898383;
+    border: none;
+}
+.centered-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text-box{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hr-setting {
+    margin: 0 auto;
+    margin-top: -40px;
+    width: 150px;
+    border: 3px grey solid;
+}
+
+.offers-boxes {
+    justify-content: center;
+}
+
+.offers-first-row .container-fluid{
+    width: 75% !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.offers-first-row .container-fluid .col-lg-3,.offers-first-row .container-fluid .col-md-3,.offers-first-row .container-fluid .col-sm-3 {
+    background: white;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.offers-first-row .container-fluid .col-lg-3:hover,.offers-first-row .container-fluid .col-md-3:hover,.offers-first-row .container-fluid .col-sm-3:hover {
+    background: rgb(5,117,230);
+    color: white;
+}
+
+.offers-first-row .fa {
+    color: white;
+    font-size: 40px;
+    background: linear-gradient(45deg, rgba(5,117,230,0.8), rgba(0,242,96,0.8));
+    padding: 11px;
+    border-radius: 100% 100% 50% 20%;
+}
+
+.small-boxes-heading {
+    font-weight: 600; 
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.small-boxes-para {
+    /*color: grey;*/
+}
+
+.counter-container {
+    background: #f0f0f0;
+}
+
+.counter-container .row {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 0 100px;
+    justify-content: center;
+}
+
+.counter-container .row .col-lg-2 {
+    border: 1px solid white;
+    background: linear-gradient(to right, rgba(0,242,96),rgba(5,117,230));
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+}
+
+.counter-container .fa {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    background: black;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.count-text {
+    color: white;
+    font-size: 17px;
+}
+
+/*||||||||||||||||||||||
+||| MOBILE-LANDSCAPE |||
+||||||||||||||||||||||*/
+@media (min-width: 480px) {
+    
+}
+
+/*|||||||||||||||||||||
+||| TABLET-PORTRAIT |||
+|||||||||||||||||||||*/
+@media (min-width: 768px) {
+    .what-we-offer-heading {
+        color: #00ff00;
+        text-align: center;
+        background: white;
+        width: 60%;
+        margin: 30px auto 0;
+        padding: 10px 0;
+        border-radius: 5px;
+        font-size: 3em;
+    }
+}
+
+/*||||||||||||||||||||||
+||| TABLET-LANDSCAPE |||
+||||||||||||||||||||||*/
+@media (min-width: 992px) {
+    
+}
+
+/*||||||||||||
+||| LAPTOP |||
+||||||||||||*/
+@media (min-width: 1200px) {
+    
+}

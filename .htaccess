@@ -1,0 +1,22 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 209.85.208.45
+deny from 209.85.218.52
+deny from 2002:0a92:d98b:0000:0000:0000:0000:0000
+deny from 2002:0a05:6638:0216:0000:0000:0000:0000
+deny from 2002:0a05:6602:0586:0000:0000:0000:0000
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

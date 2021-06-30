@@ -1,0 +1,970 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    /*overflow-x: hidden;*/
+}
+
+.navbar a {
+    color: white !important;
+    font-size: 18px !important;
+}
+
+.navbar a:hover{
+    color: black !important;
+    transition: 0.3s;
+}
+
+.nav-logo-img {
+    width: 50px;
+}
+
+.bg-dark {
+    background: linear-gradient(to right, rgba(5,117,230,0.8), rgba(0,242,96,0.8)) !important;
+}
+
+nav .container-fluid {
+    width: 90%;
+}
+header .container-fluid {
+    background: url('../img/top.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(5,117,230,0.8), rgba(0,242,96,0.8));
+  position: absolute;
+}
+
+.banner-content-container {
+    margin-top: 270px;
+    padding-bottom: 150px;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 45px;
+    /* font-weight: bold; */
+    margin-bottom: 70px;
+}
+#banner-heading{
+    font-size: 3em;
+    margin-top: 100px
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.create-free-account-btn {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 550px !important;
+}
+
+.create-free-account-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.intro-container {
+    margin-top: 100px;
+    width: 80%;
+}
+
+hr {
+    border: 3px red solid;
+    width: 60px;
+}
+
+.intro-heading {
+    color: #00ff00;
+    margin-top: 170px;
+}
+
+#intro-heading{
+    font-size: 42px;
+}
+
+.intro-para {
+    font-size: 23px;
+}
+#intro-para{
+    font-size: 23px;
+    color: #474747;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+footer {
+    background: linear-gradient(to right, rgba(5,117,230,0.8), rgba(0,242,96,0.8));
+}
+
+.footer-container {
+    width: 80%;
+    padding-top: 50px;
+}
+
+footer h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.important-links {
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.important-links:hover {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.social-media-icons {
+    color: rgb(37, 37, 37);
+    font-size: 40px;
+    padding: 15px;
+}
+
+.social-media-icons:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.website-credit {
+    text-align: center;
+    margin: 40px auto;
+    font-size: 14px;
+}
+
+/* ===================================
+=========WHO WE ARE PAGE===========
+=================================== */
+
+.who-we-are-img {
+    margin-top: 160px;
+    /* width: 100%;  */
+}
+
+.who-we-are-para {
+    font-size: 23px;
+}
+
+.what-we-offer-container {
+    background: #F0F0F0;
+    margin-top: 150px;
+}
+
+.what-we-offer-heading {
+    color: #00ff00;
+    text-align: center;
+    background: white;
+    width: 85%;
+    margin: 50px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 3em;
+}
+.round-button{
+    border-radius: 35px;
+    width: 100px;
+    background-color: #898383;
+    border: none;
+}
+.centered-image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.text-box{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hr-setting {
+    margin: 0 auto;
+    margin-top: -40px;
+    width: 150px;
+    border: 3px grey solid;
+}
+
+.offers-first-row .container-fluid{
+    width: 85% !important;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.offers-first-row .container-fluid .col-lg-4,.offers-first-row .container-fluid .col-md-4,.offers-first-row .container-fluid .col-sm-4 {
+    background: white;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    margin: 10px;
+    max-width: 32% !important;
+}
+
+.offers-first-row .fa {
+    color: rgb(48, 182, 187);
+    font-size: 40px;
+}
+
+.small-boxes-heading {
+    /* font-weight: 600; */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.small-boxes-para {
+    color: grey;
+}
+
+.counter-container {
+    background: linear-gradient(to right, rgba(0,242,96),rgba(5,117,230));
+}
+
+.counter-container .row {
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.counter-container .row .col-lg-3 {
+    border: 1px solid white;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+    max-width: 23% !important;
+}
+
+.counter-container .fa {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    background: black;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.count-text {
+    color: white;
+    font-size: 17px;
+}
+/* ================================
+=========LEGAL NOTICE==========
+================================ */
+.legal-container {
+    width: 85%;
+    margin: 100px auto;
+    padding-top: 100px;
+}
+
+.legal-heading {
+    text-align: center;
+}
+
+.legal-para {
+    color: grey;
+    margin-top: 30px;
+}
+/* ================================
+=========MEDIA QUERIES==========
+================================ */
+
+@media (min-width:  320px) and (max-width:  768px) {
+    .nav-logo-img {
+        width: 40px;
+    }
+    .bg-dark {
+        background: linear-gradient(to right, rgba(5,117,230), rgba(0,242,96)) !important;
+    }    
+    
+    nav .container-fluid {
+        width: 100% !important;
+    }
+
+    .container-fluid {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width:  320px) and (max-width:  500px) {
+    .banner-content-container {
+        margin-top: 150px;
+        padding-bottom: 100px;
+    }
+    
+    .banner-heading {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    
+    .banner-img {
+        margin-top: 50px;
+    }
+    
+    .create-free-account-btn {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .intro-container {
+        margin-top: 0px;
+    }
+    
+    hr {
+        width: 50px;
+    }
+    
+    .intro-heading {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    
+    .intro-para {
+        font-size: 19px;
+    }
+    
+    footer h2 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    
+    .important-links {
+        margin-top: 10px;
+    }
+    
+    .social-media-icons {
+        color: rgb(37, 37, 37);
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+    .social-media-icons:hover {
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .website-credit {
+        text-align: center;
+        margin: 40px auto;
+        font-size: 18px;
+    }
+
+    /* ....... */
+    .who-we-are-container {
+        margin-top: 50px;
+    }
+    .who-we-are-img {
+        margin-top: 60px;
+        width: 100%;
+    }
+    
+    .who-we-are-para {
+        font-size: 17px;
+    }
+    
+    .what-we-offer-container {
+        background: #F0F0F0;
+        margin-top: 150px;
+    }
+    
+    .what-we-offer-heading {
+        color: #00ff00;
+        text-align: center;
+        background: none;
+        width: 100%;
+        margin: 30px auto;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+    
+    .hr-setting {
+        margin: 0 auto;
+        margin-top: -40px;
+        width: 150px;
+        border: 3px grey solid;
+    }
+    
+    .offers-first-row .container-fluid{
+        width: 100% !important;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .offers-first-row .container-fluid .col-lg-4,.offers-first-row .container-fluid .col-md-4,.offers-first-row .container-fluid .col-sm-4 {
+        background: white;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 30px;
+        border-radius: 3px;
+        margin: 10px;
+        max-width: 100% !important;
+    }
+    
+    .offers-first-row .fa {
+        color: rgb(48, 182, 187);
+        font-size: 40px;
+    }
+    
+    .small-boxes-heading {
+        /* font-weight: 600; */
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .small-boxes-para {
+        color: grey;
+    }
+    
+    .counter-container {
+        background: linear-gradient(to right, rgba(0,242,96),rgba(5,117,230));
+    }
+    
+    .counter-container .row {
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+    
+    .counter-container .row .col-lg-3 {
+        border: 1px solid white;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 30px;
+        margin: 15px;
+        max-width: 100% !important;
+    }
+    
+    .counter-container .fa {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 10px;
+        background: black;
+        padding: 15px;
+        border: 1px solid white;
+    }
+    
+    .count-text {
+        color: white;
+        font-size: 17px;
+    }
+    .legal-container {
+        width: 90% !important;
+        margin: 100px auto;
+        padding-top: 20px;
+    }
+    
+    .legal-para {
+        color: grey;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:  768px) and (max-width:  1023px) {
+    .banner-content-container {
+        margin-top: 150px;
+        padding-bottom: 100px;
+    }
+    
+    .banner-heading {
+        font-size: 28px;
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
+    
+    .banner-img {
+        margin-top: 50px;
+    }
+    
+    .create-free-account-btn {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .intro-container {
+        margin-top: 0px;
+    }
+    
+    hr {
+        width: 50px;
+    }
+    
+    .intro-heading {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    
+    .intro-para {
+        font-size: 17px;
+    }
+    
+    .intro-img {
+        margin-top: 85px;
+    }
+    footer h2 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    
+    .important-links {
+        margin-top: 10px;
+    }
+    
+    .social-media-icons {
+        color: rgb(37, 37, 37);
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    .website-credit {
+        text-align: center;
+        margin: 40px auto;
+        font-size: 15px;
+    }
+    
+    /* ....... */
+    .who-we-are-container {
+        margin-top: 50px;
+    }
+    .who-we-are-img {
+        margin-top: 160px;
+        width: 100%;
+    }
+    
+    .who-we-are-para {
+        font-size: 17px;
+    }
+    
+    .what-we-offer-container {
+        background: #F0F0F0;
+        margin-top: 150px;
+    }
+    
+    .what-we-offer-heading {
+        color: #00ff00;
+        text-align: center;
+        background: none;
+        width: 100%;
+        margin: 30px auto;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+    
+    .hr-setting {
+        margin: 0 auto;
+        margin-top: -40px;
+        width: 150px;
+        border: 3px grey solid;
+    }
+    
+    .offers-first-row .container-fluid{
+        width: 100% !important;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .offers-first-row .container-fluid .col-lg-4,.offers-first-row .container-fluid .col-md-4,.offers-first-row .container-fluid .col-sm-4 {
+        background: white;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 30px;
+        border-radius: 3px;
+        margin: 10px;
+        max-width: 30.5% !important;
+    }
+    
+    .offers-first-row .fa {
+        color: rgb(48, 182, 187);
+        font-size: 30px;
+    }
+    
+    .small-boxes-heading {
+        /* font-weight: 600; */
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .small-boxes-para {
+        color: grey;
+        font-size: 13px;
+    }
+    
+    .counter-container {
+        background: linear-gradient(to right, rgba(0,242,96),rgba(5,117,230));
+    }
+    
+    .counter-container .row {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    
+    .counter-container .row .col-lg-3 {
+        border: 1px solid white;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+        max-width: 20.5% !important;
+    }
+    
+    .counter-container .fa {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background: black;
+        padding: 8px;
+        border: 1px solid white;
+    }
+    
+    .count-text {
+        color: white;
+        font-size: 14px;
+    }
+
+.legal-container {
+    width: 90% !important;
+    margin: 100px auto;
+    padding-top: 20px;
+}
+
+.legal-para {
+    color: grey;
+    margin-top: 30px;
+}
+}
+
+@media (min-width:  360px) and (max-width:  1366px) {
+
+    .banner-content-container {
+        margin-top: 150px;
+        padding-bottom: 100px;
+        width: 90%;
+    }
+    
+    .banner-heading {
+        font-size: 35px;
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
+    
+    .banner-img {
+        margin-top: 50px;
+    }
+    
+    .create-free-account-btn {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+
+    .intro-container {
+        margin-top: 0px;
+    }
+    
+    hr {
+        width: 50px;
+    }
+    
+    .intro-heading {
+        margin-top: 110px;
+        font-size: 30px;
+    }
+    
+    .intro-para {
+        font-size: 17px;
+    }
+    
+    .intro-img {
+        margin-top: 85px;
+    }
+    footer h2 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    
+    .important-links {
+        margin-top: 10px;
+    }
+    
+    .social-media-icons {
+        color: rgb(37, 37, 37);
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    .website-credit {
+        text-align: center;
+        margin: 40px auto;
+        font-size: 15px;
+    }
+    
+    /* ....... */
+    .who-we-are-container {
+        margin-top: 50px;
+    }
+    .who-we-are-img {
+        margin-top: 160px;
+        width: 100%;
+    }
+    
+    .who-we-are-para {
+        font-size: 17px;
+    }
+    
+    .what-we-offer-container {
+        background: #F0F0F0;
+        margin-top: 150px;
+    }
+    
+    .what-we-offer-heading {
+        color: #00ff00;
+        text-align: center;
+        background: none;
+        width: 100%;
+        margin: 30px auto;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+    
+    .hr-setting {
+        margin: 0 auto;
+        margin-top: -40px;
+        width: 150px;
+        border: 3px grey solid;
+    }
+    
+    .offers-first-row .container-fluid{
+        width: 100% !important;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .offers-first-row .container-fluid .col-lg-4,.offers-first-row .container-fluid .col-md-4,.offers-first-row .container-fluid .col-sm-4 {
+        background: white;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 30px;
+        border-radius: 3px;
+        margin: 10px;
+        max-width: 31% !important;
+    }
+    
+    .offers-first-row .fa {
+        color: rgb(48, 182, 187);
+        font-size: 30px;
+    }
+    
+    .small-boxes-heading {
+        /* font-weight: 600; */
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .small-boxes-para {
+        color: grey;
+        font-size: 13px;
+    }
+    
+    .counter-container {
+        background: linear-gradient(to right, rgba(0,242,96),rgba(5,117,230));
+    }
+    
+    .counter-container .row {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    
+    .counter-container .row .col-lg-3 {
+        border: 1px solid white;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+        max-width: 21.5% !important;
+    }
+    
+    .counter-container .fa {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background: black;
+        padding: 8px;
+        border: 1px solid white;
+    }
+    
+    .count-text {
+        color: white;
+        font-size: 14px;
+    }
+
+.legal-container {
+    width: 90% !important;
+    margin: 100px auto;
+    padding-top: 20px;
+}
+
+.legal-para {
+    color: grey;
+    margin-top: 30px;
+}
+
+/* Edited*/
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+/*End*/
+
+}
