@@ -1,3 +1,15 @@
+
+## Build/Run:
+* Clone this repo
+* Install dependencies `npm install`
+* Setup a local MySQL database if one doesn't exist (I am unaware if the project provides a way to generate this automatically through migrations or similar)
+* Run local PHP server
+
+## NOTE:
+This version still has many dependency warnings that cannot be resolved automatically. Appear to primarily be related to the use of Laravel. 
+
+This dependency cleanup requires someone with advanced PHP skills to accomplish properly.
+===========================================================================================
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
